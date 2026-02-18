@@ -295,21 +295,6 @@
             color: var(--accent);
         }
 
-        .collection-foot {
-            margin-top: auto;
-            display: flex;
-            justify-content: space-between;
-            gap: 0.7rem;
-            align-items: center;
-        }
-
-        .inline-link {
-            color: var(--accent);
-            font-size: 0.8rem;
-            text-decoration: underline;
-            text-underline-offset: 0.15rem;
-        }
-
         .collection-empty {
             padding: 2rem;
             border: 1px dashed rgba(255,255,255,0.25);

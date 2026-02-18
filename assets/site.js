@@ -104,9 +104,6 @@
           "<p>" +
           escapeHtml(p.description) +
           "</p>" +
-          '<div class="collection-foot">' +
-          '<a class="inline-link" href="https://templatelab.lemonsqueezy.com" target="_blank" rel="noopener noreferrer">Buy on storefront</a>' +
-          "</div>" +
           "</article>"
         );
       })
