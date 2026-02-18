@@ -5,195 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template Lab — Premium Digital Assets</title>
     <meta name="description" content="Professional templates, dashboards, and toolkits for business, productivity, and development.">
-    <style>
-        :root {
-            --bg: #0a0a0a;
-            --text: #e5e5e5;
-            --text-muted: #888;
-            --accent: #d4ff00; /* Acid Citrus */
-            --surface: #141414;
-            --font-display: 'Playfair Display', serif;
-            --font-body: 'Inter', system-ui, -apple-system, sans-serif;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: var(--font-body);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
-        }
-
-        /* Grain overlay */
-        .grain {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            pointer-events: none;
-            z-index: 9999;
-            opacity: 0.03;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-        }
-
-        a { color: inherit; text-decoration: none; transition: opacity 0.2s; }
-        a:hover { opacity: 0.7; }
-
-        header {
-            padding: 2rem 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .logo {
-            font-family: var(--font-display);
-            font-weight: 700;
-            font-size: 1.5rem;
-            letter-spacing: -0.02em;
-        }
-        .logo span { color: var(--accent); }
-
-        .hero {
-            padding: 8rem 5%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            font-family: var(--font-display);
-            font-size: clamp(3rem, 8vw, 5rem);
-            line-height: 1.1;
-            margin-bottom: 2rem;
-            font-weight: 400;
-        }
-
-        h1 span {
-            display: block;
-            color: var(--text-muted);
-            font-size: 0.5em;
-            font-family: var(--font-body);
-            font-weight: 300;
-            letter-spacing: 0.05em;
-            margin-bottom: 0.5rem;
-            text-transform: uppercase;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: var(--accent);
-            color: black;
-            padding: 1rem 2rem;
-            font-weight: 600;
-            border-radius: 2px;
-            margin-top: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            font-size: 0.9rem;
-        }
-        .cta-button:hover { background: #bfff00; opacity: 1; }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-            padding: 4rem 5%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .card {
-            background: var(--surface);
-            padding: 2rem;
-            border: 1px solid rgba(255,255,255,0.05);
-            transition: transform 0.3s ease;
-        }
-        .card:hover { transform: translateY(-5px); border-color: rgba(255,255,255,0.1); }
-
-        .card h3 {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .category {
-            color: var(--accent);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 1rem;
-            display: block;
-        }
-
-        .price {
-            font-family: var(--font-body);
-            color: var(--text-muted);
-            margin-top: 1rem;
-            display: block;
-        }
-
-        .samples {
-            background: #111;
-            padding: 6rem 5%;
-            margin-top: 4rem;
-        }
-        
-        .samples-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .sample-list {
-            list-style: none;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .sample-list li {
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .sample-list a {
-            display: flex;
-            justify-content: space-between;
-            padding: 1.5rem 0;
-            align-items: center;
-        }
-        .sample-list span.type {
-            font-size: 0.8rem;
-            background: rgba(255,255,255,0.1);
-            padding: 0.2rem 0.5rem;
-            border-radius: 2px;
-        }
-
-        footer {
-            padding: 4rem 5%;
-            border-top: 1px solid rgba(255,255,255,0.05);
-            text-align: center;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-        }
-
-        .legal-links {
-            margin-top: 1rem;
-        }
-        .legal-links a { margin: 0 1rem; }
-
-        @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-        }
-    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="assets/site.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="grain"></div>
 
     <header>
-        <div class="logo">Template<span>Lab</span></div>
+        <a class="logo" href="index.html" aria-label="Template Lab home">Template<span>Lab</span></a>
         <nav>
-            <a href="https://templatelab.lemonsqueezy.com" class="cta-button" style="margin:0; padding: 0.5rem 1rem; font-size: 0.8rem;">Storefront</a>
+            <a href="https://templatelab.lemonsqueezy.com" class="cta-button compact">Storefront</a>
         </nav>
     </header>
 
@@ -202,11 +30,11 @@
             <span>Digital Assets</span>
             Tools for heavy<br>hitters.
         </h1>
-        <p style="max-width: 500px; color: #888; font-size: 1.1rem;">
+        <p class="hero-lede">
             Precision-engineered templates, dashboards, and business documents. 
             No fluff. Just high-performance tools for professionals.
         </p>
-        <a href="https://templatelab.lemonsqueezy.com" class="cta-button">Browse Collection</a>
+        <a href="#collection" class="cta-button">Browse Collection</a>
     </section>
 
     <section class="grid">
@@ -214,44 +42,67 @@
             <span class="category">Finance</span>
             <h3>Personal Finance Dashboard</h3>
             <p>Complete 6-sheet Excel system. Net worth tracking, budget control, and automated insights.</p>
-            <span class="price">£14.99</span>
         </article>
         <article class="card">
             <span class="category">Development</span>
             <h3>Git Commands Cheat Sheet</h3>
             <p>The definitive dark-mode reference for developers. From init to bisect.</p>
-            <span class="price">£4.99</span>
         </article>
         <article class="card">
             <span class="category">Business</span>
             <h3>Freelance Rate Calculator</h3>
             <p>Data-driven pricing strategy dashboard. Stop guessing your worth.</p>
-            <span class="price">£9.99</span>
         </article>
         <article class="card">
             <span class="category">Productivity</span>
             <h3>Second Brain OS</h3>
             <p>Comprehensive Notion workspace based on PARA methodology.</p>
-            <span class="price">£19.99</span>
         </article>
         <article class="card">
             <span class="category">Legal</span>
             <h3>NDA Template</h3>
             <p>Rock-solid non-disclosure agreement for freelancers and agencies.</p>
-            <span class="price">£12.99</span>
         </article>
         <article class="card">
             <span class="category">Marketing</span>
             <h3>Email Sequence Pack</h3>
             <p>High-converting cold outreach templates for B2B.</p>
-            <span class="price">£8.99</span>
         </article>
+    </section>
+
+    <section class="collection" id="collection">
+        <div class="collection-shell" id="collectionApp">
+            <div class="collection-header">
+                <div>
+                    <h2>Full Collection Explorer</h2>
+                    <p class="collection-subtitle">Search and filter every product currently listed in the catalogue.</p>
+                </div>
+                <p class="collection-count" id="collectionCount">Loading collection...</p>
+            </div>
+            <div class="collection-controls">
+                <label class="control">
+                    <input id="collectionSearch" type="search" placeholder="Search products, categories, and use-cases">
+                </label>
+                <label class="control">
+                    <select id="collectionSort" aria-label="Sort products">
+                        <option value="featured">Featured (catalogue order)</option>
+                        <option value="name-asc">Name (A to Z)</option>
+                        <option value="category-asc">Category</option>
+                    </select>
+                </label>
+            </div>
+            <div class="filters-row">
+                <p class="filter-group-label">Category</p>
+                <div class="filter-wrap" id="categoryFilters"></div>
+            </div>
+            <div class="collection-grid" id="collectionCards"></div>
+        </div>
     </section>
 
     <section class="samples">
         <div class="samples-container">
-            <h2 style="font-family: var(--font-display); font-size: 2rem; margin-bottom: 1rem;">Compliance Review Samples</h2>
-            <p style="color: #888;">Selected product files for platform verification purposes.</p>
+            <h2 class="samples-title">Compliance Review Samples</h2>
+            <p class="samples-copy">Selected product files for platform verification purposes.</p>
             
             <ul class="sample-list">
                 <li>
@@ -274,17 +125,19 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Template Lab. Operated by Waseem Ilyas, UK.</p>
+        <p>&copy; <span data-year>2026</span> Template Lab. Operated by Waseem Ilyas, UK.</p>
         <p class="legal-links">
             <a href="terms.html">Terms of Service</a>
             <a href="privacy.html">Privacy Policy</a>
         </p>
-        <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.5;">
+        <p class="contact-line">
             Contact: <a href="mailto:hello@waseemilyas.uk">hello@waseemilyas.uk</a>
         </p>
-        <p style="margin-top: 2rem; font-size: 0.75rem; opacity: 0.3;">
+        <p class="fulfilment-note">
             Fulfilment via Lemon Squeezy. Instant secure download.
         </p>
     </footer>
+    <script src="assets/catalog.js"></script>
+    <script src="assets/site.js"></script>
 </body>
 </html>
