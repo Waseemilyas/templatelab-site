@@ -1,0 +1,21 @@
+
+# --- naz-git-security-hardening ---
+# Runtime/state and sensitive material
+.openclaw/
+memory/
+MEMORY.md
+USER.md
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+*token*
+*secret*
+*credential*
+openclaw.json
+**/openclaw.json
+*.jsonl
+# --- /naz-git-security-hardening ---
