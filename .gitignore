@@ -19,3 +19,6 @@ openclaw.json
 **/openclaw.json
 *.jsonl
 # --- /naz-git-security-hardening ---
+
+# macOS
+.DS_Store
