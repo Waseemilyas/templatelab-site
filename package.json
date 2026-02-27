@@ -1,0 +1,9 @@
+{
+  "name": "templatelab-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate:product-manifest": "node scripts/generate-product-manifest.js",
+    "test:product-manifest": "node --test tests/generate-product-manifest.test.js"
+  }
+}

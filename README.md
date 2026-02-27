@@ -59,3 +59,21 @@ python3 -m http.server 8000
 ```
 
 Then visit: http://localhost:8000
+
+## Product Manifest Generator
+
+Generate a CSV manifest from product folders:
+
+```bash
+npm run generate:product-manifest -- --root "/path/to/products" --output "./product-manifest.csv"
+```
+
+Required folder layout:
+
+- Root directory contains category folders (for example: `spreadsheet-templates/`).
+- Each category folder contains product folders (for example: `budget-tracker/`).
+- A product is considered valid when it has:
+  - a product file (any non-hidden file that is not named `preview.png/.jpg/.jpeg/.webp`)
+  - a preview file named `preview.png`, `preview.jpg`, `preview.jpeg`, or `preview.webp`
+
+Manifest columns include product name, category, product path, required-file flags, and missing-required-file details.
