@@ -1,12 +1,12 @@
 {
   "name": "Template Lab",
   "short_name": "TemplateLab",
-  "description": "Premium digital assets for professionals.",
+  "description": "Practical templates and tools at a fair price.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
-  "theme_color": "#0a0a0a",
+  "background_color": "#f7f6f1",
+  "theme_color": "#f7f6f1",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",
