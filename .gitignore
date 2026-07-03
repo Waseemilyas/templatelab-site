@@ -22,3 +22,9 @@ openclaw.json
 
 # macOS
 .DS_Store
+
+# Internal launch/business planning docs
+FIRST-15-UPLOAD-PACK.md
+PRODUCT-CATALOG.md
+*UPLOAD-PACK*.md
+*CATALOG*.md
