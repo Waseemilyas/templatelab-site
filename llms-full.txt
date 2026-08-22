@@ -1,6 +1,6 @@
 # Template Lab — full catalogue
 
-Generated 2026-08-22T01:35:37Z. One entry per product with its real file list.
+Generated 2026-08-22T01:59:29Z. One entry per product with its real file list.
 No product is purchasable yet; every entry says so.
 
 ## Business Documents
