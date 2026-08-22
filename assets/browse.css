@@ -1,0 +1,30 @@
+.browse-controls{display:none}
+.is-enhanced .browse-controls{display:grid;grid-template-columns:2fr 1fr;gap:.8rem;margin-bottom:.5rem}
+.is-enhanced .browse-controls .filter-wrap{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.45rem}
+.collection-card img{width:100%;aspect-ratio:2/1;object-fit:cover;border-radius:8px;margin-bottom:.7rem;background:var(--surface-2)}
+.collection-card .price-tag{font-weight:600;font-size:.92rem}
+.availability-note,.collection-card .price-tag~.availability-note{color:var(--ink-muted);font-size:.78rem}
+.crumbs{font-size:.85rem}.crumb-list{list-style:none;display:flex;flex-wrap:wrap;gap:.35rem;color:var(--ink-muted)}
+.crumb-list li:not(:first-child)::before{content:"/";margin-right:.35rem}
+.crumb-list a{color:var(--accent-ink)}
+.product-layout{max-width:60rem}
+.product-head h1{font-size:clamp(1.9rem,4vw,2.8rem);max-width:none}
+.product-lede{color:var(--ink-soft);font-size:1.08rem;margin-top:.8rem;max-width:56ch}
+.product-preview{margin:1.2rem 0}
+.product-preview img{width:100%;max-width:720px;height:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.product section{margin-top:1.8rem}
+.product h2{font-family:var(--font-display);font-size:1.3rem;font-weight:600;margin-bottom:.6rem}
+.file-list{margin:0.6rem 0 0 1.2rem}
+.file-list li{margin-bottom:.25rem}
+.file-list code{background:var(--surface-2);border:1px solid var(--line);border-radius:4px;padding:.1rem .4rem;font-size:.88rem}
+.format-badge{display:inline-block;border:1px solid var(--line-strong);background:var(--surface);border-radius:999px;padding:.15rem .6rem;font-size:.72rem;font-weight:600;letter-spacing:.06em;color:var(--ink-soft);margin-right:.35rem}
+.formats-row{margin-top:.8rem}
+.md-note{color:var(--ink-muted);font-style:italic}
+/* Contrast fix: site.css styles .fulfilment-note with --line-strong (#d4d0c4 on
+   #f7f6f1 = 1.43:1, far below WCAG AA) — and this line now carries the honest
+   availability message on every page. Re-point to --ink-muted (4.38:1); the
+   palette itself is unchanged. */
+footer .fulfilment-note{color:var(--ink-muted)}
+.availability-box{margin-top:2rem;border:1px solid var(--line);border-left:4px solid var(--ink-muted);background:var(--surface);border-radius:var(--radius);padding:1.2rem 1.4rem}
+.availability-box h2{margin-top:0}
+.availability-box .price-line{margin-top:.6rem;color:var(--ink-soft)}

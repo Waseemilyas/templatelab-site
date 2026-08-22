@@ -21,9 +21,9 @@ window.TEMPLATE_LAB_CATALOG = {
     {
       "id": 1,
       "name": "Git Commands Cheat Sheet",
-      "description": "2-page reference with 70+ commands. From basic commits to advanced rebasing. Light & dark themes.",
+      "description": "One-page A4 landscape dark PDF with 70+ practical Git commands, from daily workflow to safer recovery.",
       "category": "Cheat Sheets",
-      "priceRange": "£4.99–£7.99",
+      "priceRange": "£4.99",
       "tier": "Entry"
     },
     {

@@ -1,0 +1,26 @@
+# Template Lab
+
+> Template Lab (templatelab.uk) sells practical digital templates — spreadsheets, calculators, business documents, cheat sheets and prompt packs — aimed at UK freelancers and small businesses. 72 products across 10 categories. Products are described exactly as they ship; none are purchasable yet ("Not yet on sale").
+
+## Key pages
+
+- [Home](https://templatelab.uk/): overview and featured templates
+- [All templates](https://templatelab.uk/templates/): the full browse index
+- [Machine-readable catalogue](https://templatelab.uk/catalogue.json): structured JSON of every product
+- [Full catalogue as markdown](https://templatelab.uk/llms-full.txt): every product with its real file list
+- [Terms](https://templatelab.uk/terms.html) · [Privacy](https://templatelab.uk/privacy.html)
+
+## Categories
+
+- [Business Documents](https://templatelab.uk/templates/business-documents/): 10 products
+- [Cheat Sheets](https://templatelab.uk/templates/cheat-sheets/): 15 products
+- [Dashboards & Calculators](https://templatelab.uk/templates/dashboards-and-calculators/): 4 products
+- [Email Template Packs](https://templatelab.uk/templates/email-template-packs/): 5 products
+- [Mini Guides](https://templatelab.uk/templates/mini-guides/): 4 products
+- [Obsidian Vaults](https://templatelab.uk/templates/obsidian-vaults/): 3 products
+- [Printables](https://templatelab.uk/templates/printables/): 3 products
+- [Prompt Packs](https://templatelab.uk/templates/prompt-packs/): 5 products
+- [Spreadsheet Templates](https://templatelab.uk/templates/spreadsheet-templates/): 19 products
+- [Swipe Files](https://templatelab.uk/templates/swipe-files/): 4 products
+
+AI crawlers are welcome. See robots.txt for the explicit policy.

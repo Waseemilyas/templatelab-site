@@ -1,0 +1,27 @@
+# Template Lab — https://templatelab.uk
+User-agent: *
+Allow: /
+
+# AI crawlers are explicitly welcome to index this site and its catalogue.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://templatelab.uk/sitemap.xml
