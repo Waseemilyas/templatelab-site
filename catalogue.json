@@ -1,8 +1,8 @@
 {
   "site": "https://templatelab.uk",
-  "generatedAt": "2026-08-22T00:14:13Z",
+  "generatedAt": "2026-08-22T01:35:37Z",
   "note": "Machine-readable Template Lab catalogue. Only products that passed the quality audit are listed; none are purchasable yet.",
-  "productCount": 72,
+  "productCount": 87,
   "categories": [
     {
       "name": "Airtable Bases",
@@ -71,6 +71,28 @@
     }
   ],
   "products": [
+    {
+      "slug": "client-onboarding-checklist",
+      "name": "Client Onboarding Checklist",
+      "category": "Business Documents",
+      "url": "https://templatelab.uk/templates/business-documents/client-onboarding-checklist/",
+      "description": "You've just signed a new client. Exciting! But then...",
+      "longDescription": null,
+      "price": 9.99,
+      "priceDisplay": "£9.99–£24.99",
+      "tier": "Premium",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "CUSTOMISATION-GUIDE.md",
+        "client-onboarding-checklist.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/business-documents/client-onboarding-checklist.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
     {
       "slug": "client-proposal",
       "name": "Client Proposal Template",
@@ -193,6 +215,28 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/business-documents/meeting-templates.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "nda-template",
+      "name": "NDA Template",
+      "category": "Business Documents",
+      "url": "https://templatelab.uk/templates/business-documents/nda-template/",
+      "description": "Perfect for partnerships, joint ventures, and collaborative projects where both parties share confidential information.",
+      "longDescription": null,
+      "price": 9.99,
+      "priceDisplay": "£9.99–£24.99",
+      "tier": "Premium",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "NDA-CUSTOMISATION-GUIDE.md",
+        "nda-template.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/business-documents/nda-template.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -340,6 +384,28 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "css-flexbox-grid",
+      "name": "CSS Flexbox & Grid Cheat Sheet",
+      "category": "Cheat Sheets",
+      "url": "https://templatelab.uk/templates/cheat-sheets/css-flexbox-grid/",
+      "description": "A compact CSS layout reference covering Flexbox and Grid systems. Designed for developers who want instant access to modern layout techniques without hunting through documentation.",
+      "longDescription": "A compact CSS layout reference covering Flexbox and Grid systems. Designed for developers who want instant access to modern layout techniques without hunting through documentation.",
+      "price": 4.99,
+      "priceDisplay": "£4.99–£7.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "css-flexbox-grid-dark.md",
+        "css-flexbox-grid-light.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/cheat-sheets/css-flexbox-grid.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "docker-commands",
       "name": "Docker Commands Cheat Sheet",
       "category": "Cheat Sheets",
@@ -409,6 +475,28 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "linux-commands",
+      "name": "Linux Command Line Cheat Sheet",
+      "category": "Cheat Sheets",
+      "url": "https://templatelab.uk/templates/cheat-sheets/linux-commands/",
+      "description": "Whether you're a developer, system administrator, or tech enthusiast, this beautifully organised cheat sheet puts the most important Linux commands at your fingertips.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£7.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "linux-commands-dark.md",
+        "linux-commands-light.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/cheat-sheets/linux-commands.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "markdown-syntax",
       "name": "Markdown Syntax Cheat Sheet",
       "category": "Cheat Sheets",
@@ -449,6 +537,28 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/cheat-sheets/mongodb.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "nextjs",
+      "name": "Next.js Cheat Sheet",
+      "category": "Cheat Sheets",
+      "url": "https://templatelab.uk/templates/cheat-sheets/nextjs/",
+      "description": "A comprehensive 2-page reference guide for Next.js 14+ focusing on the App Router architecture.",
+      "longDescription": "A comprehensive 2-page reference guide for Next.js 14+ focusing on the App Router architecture. Perfect for developers who need quick access to routing patterns, data fetching strategies, server actions, and deployment configurations.",
+      "price": 4.99,
+      "priceDisplay": "£4.99–£7.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "nextjs-cheatsheet-dark.md",
+        "nextjs-cheatsheet-light.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/cheat-sheets/nextjs.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -781,6 +891,29 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "freelancer-cold-outreach",
+      "name": "Freelancer Cold Outreach Email Templates",
+      "category": "Email Template Packs",
+      "url": "https://templatelab.uk/templates/email-template-packs/freelancer-cold-outreach/",
+      "description": "This collection contains 20+ email templates specifically designed for freelancers looking to acquire clients through professional, value-focused cold outreach.",
+      "longDescription": null,
+      "price": 7.99,
+      "priceDisplay": "£7.99–£12.99",
+      "tier": "Mid",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "COLD-EMAIL-BEST-PRACTICES.md",
+        "cold-outreach-emails.md",
+        "freelancer-cold-outreach.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/email-template-packs/freelancer-cold-outreach.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "job-application",
       "name": "Job Application Email Templates",
       "category": "Email Template Packs",
@@ -798,6 +931,27 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/email-template-packs/job-application.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "networking-emails",
+      "name": "Networking Email Templates",
+      "category": "Email Template Packs",
+      "url": "https://templatelab.uk/templates/email-template-packs/networking-emails/",
+      "description": "Professional networking email template pack containing 25 carefully crafted templates for building and maintaining meaningful professional relationships.",
+      "longDescription": "Professional networking email template pack containing 25 carefully crafted templates for building and maintaining meaningful professional relationships.",
+      "price": 7.99,
+      "priceDisplay": "£7.99–£12.99",
+      "tier": "Mid",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "networking-emails.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/email-template-packs/networking-emails.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -1029,6 +1183,32 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "budget-binder",
+      "name": "Budget Binder Printables",
+      "category": "Printables",
+      "url": "https://templatelab.uk/templates/printables/budget-binder/",
+      "description": "This 6-piece printable bundle gives you everything you need to manage your money, track expenses, pay off debt, and build savings — all in one organised system.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "bill-payment-tracker.md",
+        "cash-envelope-tracker.md",
+        "debt-snowball.md",
+        "expense-tracker.md",
+        "monthly-budget.md",
+        "savings-challenge.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/printables/budget-binder.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "daily-planner",
       "name": "Daily Planner Printable",
       "category": "Printables",
@@ -1046,6 +1226,50 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/printables/daily-planner.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "fitness-workout-log",
+      "name": "Fitness Workout Log Printable",
+      "category": "Printables",
+      "url": "https://templatelab.uk/templates/printables/fitness-workout-log/",
+      "description": "Track every rep, set, and cardio session with precision. Perfect for progressive overload and seeing real strength gains.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "body-measurements.md",
+        "fitness-goals.md",
+        "workout-log.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/printables/fitness-workout-log.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "goal-setting-worksheet",
+      "name": "Goal Setting Worksheet",
+      "category": "Printables",
+      "url": "https://templatelab.uk/templates/printables/goal-setting-worksheet/",
+      "description": "bash pandoc goal-setting-worksheet.md -o goal-setting-worksheet.pdf \\",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "goal-setting-worksheet.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/printables/goal-setting-worksheet.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -1092,6 +1316,27 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "weekly-review",
+      "name": "Weekly Review Worksheet",
+      "category": "Printables",
+      "url": "https://templatelab.uk/templates/printables/weekly-review/",
+      "description": "A single-page weekly reflection worksheet designed to help users review their week, capture wins and lessons, plan ahead, and maintain a gratitude practice.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "weekly-review.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/printables/weekly-review.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "chatgpt-productivity",
       "name": "ChatGPT Productivity Prompt Pack",
       "category": "Prompt Packs",
@@ -1110,6 +1355,27 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/prompt-packs/chatgpt-productivity.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "claude-research",
+      "name": "Claude Prompts for Research & Analysis",
+      "category": "Prompt Packs",
+      "url": "https://templatelab.uk/templates/prompt-packs/claude-research/",
+      "description": "A comprehensive collection of 40+ professional-grade prompts specifically designed to leverage Claude's unique strengths in research, analysis, and deep thinking tasks.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "claude-research-prompts.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/prompt-packs/claude-research.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -1196,6 +1462,34 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/prompt-packs/perplexity-prompts.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "modern-professional",
+      "name": "Professional Resume & CV Template Pack",
+      "category": "Resume/CV",
+      "url": "https://templatelab.uk/templates/resume-cv/modern-professional/",
+      "description": "bash cd \"/Volumes/1TB M2 SSD/Projects/passive-income/resume-cv-templates/modern-professional/\" sed -i '' 's/Issuing Organization/Issuing Organisation/g' technical-resume.md",
+      "longDescription": null,
+      "price": 9.99,
+      "priceDisplay": "£9.99",
+      "tier": "Mid",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "CUSTOMISATION-GUIDE.md",
+        "career-changer-resume.md",
+        "cover-letter-template.md",
+        "creative-resume.md",
+        "executive-cv.md",
+        "linkedin-summary.md",
+        "modern-professional-resume.md",
+        "technical-resume.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/resume-cv/modern-professional.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     },
@@ -1599,6 +1893,28 @@
       "availability": "Not yet on sale"
     },
     {
+      "slug": "headline-formulas",
+      "name": "100 Headline Formulas That Convert",
+      "category": "Swipe Files",
+      "url": "https://templatelab.uk/templates/swipe-files/headline-formulas/",
+      "description": "Viral headlines, listicles, how-to headlines.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "100-headline-formulas.md",
+        "headline-quickref.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/swipe-files/headline-formulas.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
       "slug": "cta-collection",
       "name": "CTA Swipe File — Call-to-Action Collection",
       "category": "Swipe Files",
@@ -1680,6 +1996,28 @@
       ],
       "deliverableKind": "markdown",
       "preview": "https://templatelab.uk/assets/previews/swipe-files/sales-page-copy.png",
+      "purchasable": false,
+      "availability": "Not yet on sale"
+    },
+    {
+      "slug": "social-media-content",
+      "name": "Social Media Content Swipe File",
+      "category": "Swipe Files",
+      "url": "https://templatelab.uk/templates/swipe-files/social-media-content/",
+      "description": "This swipe file contains 67+ proven social media templates and hooks designed to help creators, entrepreneurs, and marketers create high-engagement content across LinkedIn, Twitter/X, and Instagram.",
+      "longDescription": null,
+      "price": 4.99,
+      "priceDisplay": "£4.99–£9.99",
+      "tier": "Entry",
+      "formats": [
+        "md"
+      ],
+      "files": [
+        "PLATFORM-BEST-PRACTICES.md",
+        "social-media-swipe-file.md"
+      ],
+      "deliverableKind": "markdown",
+      "preview": "https://templatelab.uk/assets/previews/swipe-files/social-media-content.png",
       "purchasable": false,
       "availability": "Not yet on sale"
     }

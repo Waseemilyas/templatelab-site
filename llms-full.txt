@@ -1,9 +1,20 @@
 # Template Lab — full catalogue
 
-Generated 2026-08-22T00:14:13Z. One entry per product with its real file list.
+Generated 2026-08-22T01:35:37Z. One entry per product with its real file list.
 No product is purchasable yet; every entry says so.
 
 ## Business Documents
+
+### Client Onboarding Checklist
+
+- URL: https://templatelab.uk/templates/business-documents/client-onboarding-checklist/
+- Category: Business Documents
+- Price (intended): £9.99–£24.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: CUSTOMISATION-GUIDE.md, client-onboarding-checklist.md
+
+You've just signed a new client. Exciting! But then...
 
 ### Client Proposal Template
 
@@ -59,6 +70,17 @@ This pack contains 5 comprehensive freelancer contract templates designed specif
 - Files included: 01-standard-meeting-agenda.md, 02-one-on-one-meeting.md, 03-team-standup.md, 04-project-kickoff.md, 05-retrospective.md, 06-client-meeting.md, 07-brainstorming-session.md, 08-decision-meeting.md, 09-quarterly-review.md, MEETING-BEST-PRACTICES.md
 
 Stop wasting time in bad meetings. Start driving results with structured agendas and action-oriented notes. ---
+
+### NDA Template
+
+- URL: https://templatelab.uk/templates/business-documents/nda-template/
+- Category: Business Documents
+- Price (intended): £9.99–£24.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: NDA-CUSTOMISATION-GUIDE.md, nda-template.md
+
+Perfect for partnerships, joint ventures, and collaborative projects where both parties share confidential information.
 
 ### Project Brief Template
 
@@ -128,6 +150,17 @@ A comprehensive website launch checklist with 150+ items covering technical setu
 
 Developers, DevOps engineers, and system administrators who need a comprehensive reference for Bash scripting.
 
+### CSS Flexbox & Grid Cheat Sheet
+
+- URL: https://templatelab.uk/templates/cheat-sheets/css-flexbox-grid/
+- Category: Cheat Sheets
+- Price (intended): £4.99–£7.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: css-flexbox-grid-dark.md, css-flexbox-grid-light.md
+
+A compact CSS layout reference covering Flexbox and Grid systems. Designed for developers who want instant access to modern layout techniques without hunting through documentation.
+
 ### Docker Commands Cheat Sheet
 
 - URL: https://templatelab.uk/templates/cheat-sheets/docker-commands/
@@ -161,6 +194,17 @@ One-page A4 landscape dark PDF with 70+ practical Git commands, from daily workf
 
 A comprehensive 2-page JavaScript ES6+ reference for modern web developers. Perfect for quick lookups, interview prep, or keeping by your desk.
 
+### Linux Command Line Cheat Sheet
+
+- URL: https://templatelab.uk/templates/cheat-sheets/linux-commands/
+- Category: Cheat Sheets
+- Price (intended): £4.99–£7.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: linux-commands-dark.md, linux-commands-light.md
+
+Whether you're a developer, system administrator, or tech enthusiast, this beautifully organised cheat sheet puts the most important Linux commands at your fingertips.
+
 ### Markdown Syntax Cheat Sheet
 
 - URL: https://templatelab.uk/templates/cheat-sheets/markdown-syntax/
@@ -182,6 +226,17 @@ A comprehensive 2-page Markdown syntax cheat sheet designed for developers, writ
 - Files included: mongodb-cheatsheet-dark.md, mongodb-cheatsheet-light.md
 
 A comprehensive 2-page MongoDB reference guide covering essential operations, queries, and best practices for developers working with MongoDB databases.
+
+### Next.js Cheat Sheet
+
+- URL: https://templatelab.uk/templates/cheat-sheets/nextjs/
+- Category: Cheat Sheets
+- Price (intended): £4.99–£7.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: nextjs-cheatsheet-dark.md, nextjs-cheatsheet-light.md
+
+A comprehensive 2-page reference guide for Next.js 14+ focusing on the App Router architecture.
 
 ### Node.js Cheat Sheet
 
@@ -352,6 +407,17 @@ A comprehensive collection of 28 professional business email templates covering 
 
 Refunds, complaints, feature requests, thank yous.
 
+### Freelancer Cold Outreach Email Templates
+
+- URL: https://templatelab.uk/templates/email-template-packs/freelancer-cold-outreach/
+- Category: Email Template Packs
+- Price (intended): £7.99–£12.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: COLD-EMAIL-BEST-PRACTICES.md, cold-outreach-emails.md, freelancer-cold-outreach.md
+
+This collection contains 20+ email templates specifically designed for freelancers looking to acquire clients through professional, value-focused cold outreach.
+
 ### Job Application Email Templates
 
 - URL: https://templatelab.uk/templates/email-template-packs/job-application/
@@ -362,6 +428,17 @@ Refunds, complaints, feature requests, thank yous.
 - Files included: job-application-emails.md
 
 Professional email template pack covering every stage of the UK job search process, from initial application through to offer acceptance or declination.
+
+### Networking Email Templates
+
+- URL: https://templatelab.uk/templates/email-template-packs/networking-emails/
+- Category: Email Template Packs
+- Price (intended): £7.99–£12.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: networking-emails.md
+
+Professional networking email template pack containing 25 carefully crafted templates for building and maintaining meaningful professional relationships.
 
 ### Sales Follow-Up Email Templates
 
@@ -468,6 +545,17 @@ A complete, ready-to-use Zettelkasten vault for Obsidian — the proven knowledg
 
 ## Printables
 
+### Budget Binder Printables
+
+- URL: https://templatelab.uk/templates/printables/budget-binder/
+- Category: Printables
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: bill-payment-tracker.md, cash-envelope-tracker.md, debt-snowball.md, expense-tracker.md, monthly-budget.md, savings-challenge.md
+
+This 6-piece printable bundle gives you everything you need to manage your money, track expenses, pay off debt, and build savings — all in one organised system.
+
 ### Daily Planner Printable
 
 - URL: https://templatelab.uk/templates/printables/daily-planner/
@@ -478,6 +566,28 @@ A complete, ready-to-use Zettelkasten vault for Obsidian — the proven knowledg
 - Files included: daily-planner.md
 
 A clean, professional single-page daily planner designed for productivity and mindfulness. Perfect for anyone looking to organise their day, track habits, and maintain a positive mindset.
+
+### Fitness Workout Log Printable
+
+- URL: https://templatelab.uk/templates/printables/fitness-workout-log/
+- Category: Printables
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: body-measurements.md, fitness-goals.md, workout-log.md
+
+Track every rep, set, and cardio session with precision. Perfect for progressive overload and seeing real strength gains.
+
+### Goal Setting Worksheet
+
+- URL: https://templatelab.uk/templates/printables/goal-setting-worksheet/
+- Category: Printables
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: goal-setting-worksheet.md
+
+bash pandoc goal-setting-worksheet.md -o goal-setting-worksheet.pdf \
 
 ### Ramadan Prayer Cheat Sheet
 
@@ -501,6 +611,17 @@ Your essential 2-page Ramadan companion!
 
 More than a vision board—a roadmap to your dream life ---
 
+### Weekly Review Worksheet
+
+- URL: https://templatelab.uk/templates/printables/weekly-review/
+- Category: Printables
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: weekly-review.md
+
+A single-page weekly reflection worksheet designed to help users review their week, capture wins and lessons, plan ahead, and maintain a gratitude practice.
+
 ## Prompt Packs
 
 ### ChatGPT Productivity Prompt Pack
@@ -513,6 +634,17 @@ More than a vision board—a roadmap to your dream life ---
 - Files included: chatgpt-productivity-prompts.md, chatgpt-prompts.md
 
 ✅ Comprehensive Coverage — From blog writing to brainstorming, from meeting agendas to market research
+
+### Claude Prompts for Research & Analysis
+
+- URL: https://templatelab.uk/templates/prompt-packs/claude-research/
+- Category: Prompt Packs
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: claude-research-prompts.md
+
+A comprehensive collection of 40+ professional-grade prompts specifically designed to leverage Claude's unique strengths in research, analysis, and deep thinking tasks.
 
 ### DALL-E Prompt Pack
 
@@ -557,6 +689,19 @@ This prompt pack contains 70+ professional Midjourney V6 prompts organised by ca
 - Files included: perplexity-prompts.md
 
 Deep research, fact-checking, comparative analysis.
+
+## Resume/CV
+
+### Professional Resume & CV Template Pack
+
+- URL: https://templatelab.uk/templates/resume-cv/modern-professional/
+- Category: Resume/CV
+- Price (intended): £9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: CUSTOMISATION-GUIDE.md, career-changer-resume.md, cover-letter-template.md, creative-resume.md, executive-cv.md, linkedin-summary.md, modern-professional-resume.md, technical-resume.md
+
+bash cd "/Volumes/1TB M2 SSD/Projects/passive-income/resume-cv-templates/modern-professional/" sed -i '' 's/Issuing Organization/Issuing Organisation/g' technical-resume.md
 
 ## Spreadsheet Templates
 
@@ -771,6 +916,17 @@ A clean, print-friendly weekly planner spreadsheet designed for focus and reflec
 
 ## Swipe Files
 
+### 100 Headline Formulas That Convert
+
+- URL: https://templatelab.uk/templates/swipe-files/headline-formulas/
+- Category: Swipe Files
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: 100-headline-formulas.md, headline-quickref.md
+
+Viral headlines, listicles, how-to headlines.
+
 ### CTA Swipe File — Call-to-Action Collection
 
 - URL: https://templatelab.uk/templates/swipe-files/cta-collection/
@@ -814,3 +970,14 @@ A comprehensive collection of conversion-optimised landing page copy templates f
 - Files included: sales-page-copy.md
 
 A comprehensive collection of high-converting sales page copy templates based on proven direct response copywriting principles.
+
+### Social Media Content Swipe File
+
+- URL: https://templatelab.uk/templates/swipe-files/social-media-content/
+- Category: Swipe Files
+- Price (intended): £4.99–£9.99
+- Availability: Not yet on sale — not purchasable yet
+- Deliverable: plain-text Markdown files
+- Files included: PLATFORM-BEST-PRACTICES.md, social-media-swipe-file.md
+
+This swipe file contains 67+ proven social media templates and hooks designed to help creators, entrepreneurs, and marketers create high-engagement content across LinkedIn, Twitter/X, and Instagram.

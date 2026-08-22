@@ -1,30 +1,100 @@
+/* Design pass — layered over site.css (loads after it). Owns: dark mode,
+   card treatment, product page spec layout, browse controls, hero accent. */
+
+/* ---------- Utilities ---------- */
+.visually-hidden{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+/* site.css declares .section{padding:X 0} after .wrap, zeroing horizontal
+   padding on elements carrying both classes — content touched the phone edge. */
+.section.wrap{padding-left:clamp(1.25rem,5vw,3rem);padding-right:clamp(1.25rem,5vw,3rem)}
+
+/* ---------- Hero accent ---------- */
+.hero-highlight{font-style:normal;background-image:linear-gradient(rgba(182,198,63,.42),rgba(182,198,63,.42));background-repeat:no-repeat;background-size:100% .16em;background-position:0 86%}
+@supports not (background-size:100% .16em){.hero-highlight{background:none}}
+
+/* ---------- Cards ---------- */
+.card-media{position:relative;border-radius:var(--radius-sm);overflow:hidden;margin-bottom:.75rem}
+.collection-card img{display:block;width:100%;aspect-ratio:2/1;object-fit:cover;background:var(--surface-2)}
+.collection-card .card-media .collection-tag{position:absolute;top:.55rem;left:.55rem;background:var(--surface);border:1px solid var(--line-strong);border-radius:999px;padding:.18rem .6rem;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent-ink)}
+.collection-card h3 a{color:inherit}
+.collection-card h3 a:hover{color:var(--accent-ink)}
+.collection-card p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* Author display beats the UA [hidden] rule, so spell it out or filtering
+   updates the count without hiding anything (verified defect on live site). */
+.collection-card[hidden]{display:none}
+.collection-card .price-tag{font-family:var(--font-display);font-weight:600;font-size:1rem;color:var(--ink)}
+.availability-note{color:var(--ink-muted);font-size:.78rem}
+
+/* ---------- Browse controls ---------- */
 .browse-controls{display:none}
-.is-enhanced .browse-controls{display:grid;grid-template-columns:2fr 1fr;gap:.8rem;margin-bottom:.5rem}
+.is-enhanced .browse-controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:.8rem;margin-bottom:.5rem}
 .is-enhanced .browse-controls .filter-wrap{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.45rem}
-.collection-card img{width:100%;aspect-ratio:2/1;object-fit:cover;border-radius:8px;margin-bottom:.7rem;background:var(--surface-2)}
-.collection-card .price-tag{font-weight:600;font-size:.92rem}
-.availability-note,.collection-card .price-tag~.availability-note{color:var(--ink-muted);font-size:.78rem}
+@media (max-width:640px){.is-enhanced .browse-controls{grid-template-columns:1fr}}
+.filter-pill:focus-visible{outline-offset:2px}
+.filter-pill[aria-pressed="true"]{background:var(--accent-wash);color:var(--accent-ink);border-color:var(--accent)}
+.control input::placeholder{color:#6b685e}
+.control select option{color:var(--ink)}
+
+/* ---------- Breadcrumbs ---------- */
 .crumbs{font-size:.85rem}.crumb-list{list-style:none;display:flex;flex-wrap:wrap;gap:.35rem;color:var(--ink-muted)}
 .crumb-list li:not(:first-child)::before{content:"/";margin-right:.35rem}
 .crumb-list a{color:var(--accent-ink)}
+
+/* ---------- Product page ---------- */
+/* site.css styles the bare header element (sticky site nav); that leak
+   turns this <header class="product-head"> into a flex bar. Reset it. */
+header.product-head{display:block;background:none;border:none;padding:0;position:static;z-index:auto;backdrop-filter:none}
 .product-layout{max-width:60rem}
 .product-head h1{font-size:clamp(1.9rem,4vw,2.8rem);max-width:none}
 .product-lede{color:var(--ink-soft);font-size:1.08rem;margin-top:.8rem;max-width:56ch}
-.product-preview{margin:1.2rem 0}
-.product-preview img{width:100%;max-width:720px;height:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.formats-row{margin-top:1rem;display:flex;align-items:center;flex-wrap:wrap;gap:.4rem}
+.format-badge{display:inline-block;border:1px solid var(--line-strong);background:var(--surface);border-radius:999px;padding:.15rem .6rem;font-size:.72rem;font-weight:700;letter-spacing:.06em;color:var(--ink-soft)}
+.file-count{color:var(--ink-muted);font-size:.82rem;margin-left:.4rem}
+.product-preview{margin:1.4rem 0 1.8rem}
+.product-preview img{display:block;width:100%;height:auto;max-width:760px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface-2);box-shadow:0 20px 45px -30px rgba(28,27,24,.45)}
 .product section{margin-top:1.8rem}
 .product h2{font-family:var(--font-display);font-size:1.3rem;font-weight:600;margin-bottom:.6rem}
-.file-list{margin:0.6rem 0 0 1.2rem}
-.file-list li{margin-bottom:.25rem}
-.file-list code{background:var(--surface-2);border:1px solid var(--line);border-radius:4px;padding:.1rem .4rem;font-size:.88rem}
-.format-badge{display:inline-block;border:1px solid var(--line-strong);background:var(--surface);border-radius:999px;padding:.15rem .6rem;font-size:.72rem;font-weight:600;letter-spacing:.06em;color:var(--ink-soft);margin-right:.35rem}
-.formats-row{margin-top:.8rem}
+.file-list{list-style:none;margin:1rem 0 0;padding:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}
+.file-list li{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:0;padding:.65rem 1rem;border-bottom:1px solid var(--line)}
+.file-list li:last-child{border-bottom:none}
+.file-list code{background:none;border:none;padding:0;font-size:.88rem;overflow-wrap:anywhere}
+.file-ext{flex-shrink:0;font-size:.66rem;font-weight:700;letter-spacing:.08em;color:var(--accent-ink);background:var(--accent-wash);border:1px solid var(--line-strong);border-radius:999px;padding:.15rem .55rem}
 .md-note{color:var(--ink-muted);font-style:italic}
+
 /* Contrast fix: site.css styles .fulfilment-note with --line-strong (#d4d0c4 on
    #f7f6f1 = 1.43:1, far below WCAG AA) — and this line now carries the honest
-   availability message on every page. Re-point to --ink-muted (4.38:1); the
-   palette itself is unchanged. */
+   availability message on every page. Re-point to --ink-muted (4.38:1 on paper);
+   the light palette itself is unchanged. */
 footer .fulfilment-note{color:var(--ink-muted)}
-.availability-box{margin-top:2rem;border:1px solid var(--line);border-left:4px solid var(--ink-muted);background:var(--surface);border-radius:var(--radius);padding:1.2rem 1.4rem}
+
+/* ---------- Availability panel ---------- */
+.availability-box{margin-top:2.2rem;border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--surface);border-radius:var(--radius);padding:1.3rem 1.5rem}
 .availability-box h2{margin-top:0}
-.availability-box .price-line{margin-top:.6rem;color:var(--ink-soft)}
+.availability-box .price-line{margin-top:.9rem;color:var(--ink-soft)}
+.availability-box .price-line strong{font-family:var(--font-display);font-size:1.45rem;font-weight:700;color:var(--ink);margin-left:.25rem}
+
+/* ---------- Dark mode (designed warm charcoal, brand lime unchanged) ----------
+   All pairs verified >= 4.5:1 for text (see design report). */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:#161512;
+    --surface:#1f1e19;
+    --surface-2:#27261f;
+    --ink:#edeae0;
+    --ink-soft:#c8c4b6;
+    --ink-muted:#9b978a;
+    --line:#33322a;
+    --line-strong:#454337;
+    --accent:#b6c63f;
+    --accent-press:#cadb55;
+    --accent-ink:#ccd964;
+    --accent-wash:#2b2e14;
+    --focus:#98a4ff;
+  }
+  header{background:rgba(22,21,18,.85)}
+  /* the flask-grid mark is pure black; lift it off the dark ground */
+  .logo-mark{filter:invert(1)}
+  .card:hover{box-shadow:0 12px 30px -18px rgba(0,0,0,.8)}
+  .collection-card:hover{box-shadow:0 10px 24px -18px rgba(0,0,0,.8)}
+  .product-preview img{box-shadow:0 20px 45px -28px rgba(0,0,0,.8)}
+  .control select option{background:var(--surface);color:var(--ink)}
+}
